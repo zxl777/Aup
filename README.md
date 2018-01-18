@@ -7,7 +7,7 @@ Pure Golang wrote.
 - When the program crashes, it automatically restarts and pushes notifications to your phone.
 - Watch source changes, compile and run automatically.
 - Real-time display process logs.
-- System restart automatically resume the process of management.
+- Automatically resume the process of management when Linux reboot.
 
 
 # Usage
