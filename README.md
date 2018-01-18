@@ -10,6 +10,14 @@ Pure Golang wrote.
 - System restart automatically resume the process of management.
 
 
+# Usage
+The simplest way to start, daemonize and monitor your application is by using this command line:
+
+```
+tpm3 start ./yourapp
+tpm3 logs yourapp
+```
+
 # Contact the author
 
 Join https://discord.gg/E2Xzbjx
