@@ -29,5 +29,5 @@ tpm3 logs yourapp
 
 # Contact the author
 
-Join https://discord.gg/E2Xzbjx
+Join https://discord.gg/XqSqk9B
 to participate in the discussion and development.
