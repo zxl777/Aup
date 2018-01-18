@@ -1,5 +1,5 @@
 # TPM3
-Tiny production process manager for Linux
+Tiny production process manager for Linux.  
 Pure Golang wrote.
 
 # Feature
