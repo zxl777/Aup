@@ -15,6 +15,15 @@ The simplest way to start, daemonize and monitor your application is by using th
 
 ```
 tpm3 start ./yourapp
+
+┌──────────┬────┬──────┬──────┬─────────┬─────────┬────────┬─────┬──────────┬──────┬──────────┐
+│ App name │ id │ mode │ pid  │ status  │ restart │ uptime │ cpu │ mem      │ user │ watching │
+├──────────┼────┼──────┼──────┼─────────┼─────────┼────────┼─────┼──────────┼──────┼──────────┤
+│ runDebug │ 1  │ fork │ 0    │ stopped │ 0       │ 0      │ 0%  │ 0 B      │ root │ disabled │
+│ runGo    │ 0  │ fork │ 2596 │ online  │ 0       │ 8h     │ 0%  │ 1.9 MB   │ root │ enabled  │
+│ yourapp  │ 2  │ fork │ 2601 │ online  │ 0       │ 8h     │ 0%  │ 1.7 MB   │ root │ enabled  │
+└──────────┴────┴──────┴──────┴─────────┴─────────┴────────┴─────┴──────────┴──────┴──────────┘
+
 tpm3 logs yourapp
 ```
 
