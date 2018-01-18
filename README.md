@@ -10,6 +10,7 @@ Pure Golang wrote.
 - System restart automatically resume the process of management.
 
 
-# Contact the author, participate in the discussion and development.
+# Contact the author
 
 Join https://discord.gg/E2Xzbjx
+to participate in the discussion and development.
