@@ -1,6 +1,5 @@
 # TPM3
-Tiny production process manager for Linux.  
-Pure Golang wrote.
+Production process manager for Linux (PM2 rewritten in GO)
 
 # Feature
 - Have the classic features of PM2, but use minimal memory and CPU, no dependencies.
