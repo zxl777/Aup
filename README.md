@@ -1,4 +1,4 @@
-# pup
+# Aup
 Production process manager for Linux (PM2 rewritten in GOLANG)
 
 # Feature For Developer
