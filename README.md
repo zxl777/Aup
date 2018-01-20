@@ -16,7 +16,7 @@ Production process manager for Linux (PM2 rewritten in GOLANG)
 The simplest way to start, daemonize and monitor your application is by using this command line:
 
 ```
-pup start ./yourapp
+aup start ./yourapp
 
 ┌──────────┬────┬──────┬──────┬─────────┬─────────┬────────┬─────┬──────────┬──────┬──────────┐
 │ App name │ id │ mode │ pid  │ status  │ restart │ uptime │ cpu │ mem      │ user │ watching │
@@ -26,7 +26,7 @@ pup start ./yourapp
 │ yourapp  │ 2  │ fork │ 2601 │ online  │ 0       │ 8h     │ 0%  │ 1.7 MB   │ root │ enabled  │
 └──────────┴────┴──────┴──────┴─────────┴─────────┴────────┴─────┴──────────┴──────┴──────────┘
 
-pup logs yourapp
+aup logs yourapp
 ```
 
 # Contact the author
