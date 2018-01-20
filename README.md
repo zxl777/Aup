@@ -1,19 +1,22 @@
-# TPM3
-Production process manager for Linux (PM2 rewritten in GO)
+# pup
+Production process manager for Linux (PM2 rewritten in GOLANG)
 
-# Feature
-- Have the classic features of PM2, but use minimal memory and CPU, no dependencies.
+# Feature For Developer
+
+- **Watch source changes, compile and run automatically.**
 - When the program crashes, it automatically restarts and pushes notifications to your phone.
-- Watch source changes, compile and run automatically.
 - Real-time display process logs.
-- Automatically resume the process of management when Linux reboot.
+
+# Feature For Production
+- **Automatically resume the process of management when Linux reboot.**
+- Have the classic features of PM2, but use minimal memory and CPU, no dependencies.
 
 
 # Usage
 The simplest way to start, daemonize and monitor your application is by using this command line:
 
 ```
-tpm3 start ./yourapp
+pup start ./yourapp
 
 ┌──────────┬────┬──────┬──────┬─────────┬─────────┬────────┬─────┬──────────┬──────┬──────────┐
 │ App name │ id │ mode │ pid  │ status  │ restart │ uptime │ cpu │ mem      │ user │ watching │
@@ -23,7 +26,7 @@ tpm3 start ./yourapp
 │ yourapp  │ 2  │ fork │ 2601 │ online  │ 0       │ 8h     │ 0%  │ 1.7 MB   │ root │ enabled  │
 └──────────┴────┴──────┴──────┴─────────┴─────────┴────────┴─────┴──────────┴──────┴──────────┘
 
-tpm3 logs yourapp
+pup logs yourapp
 ```
 
 # Contact the author
